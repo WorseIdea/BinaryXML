@@ -1,0 +1,10 @@
+<game>
+	<level name="Planet 1">
+		<room preload="0">red_valley</room>
+		<room preload="1">blue_hills</room>
+	</level>
+	<level name="Planet 2">
+		<room preload="1">big_store</room>
+		<room preload="1" script="onload.lua">small_store</room>
+	</level>
+</game>
